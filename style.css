@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-image: url(math2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    outline: none;
+    color: white;
+    font-weight: bold;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.calculator{
+     display: grid;
+     grid-template-columns: repeat(4,70px);
+     border-radius: 10px;
+     background-color: #fff;
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow: inset 10px 10px 5px 0px rgba(33, 193, 110, 0.75);
+    } 
+input{
+        grid-column: span 4;
+        height: 70px;
+        box-shadow: inset 10px 10px 5px 0px rgba(33, 132, 193, 0.75);
+        border-radius: 20px;
+        color: #fff;
+        text-align: end;
+        font-size: 50px;
+        padding: 10px;
+    }
+    button{
+        height: 78px;
+        width: 78px;
+        border-radius: 50%;
+        border: 0;
+        box-shadow:  inset 10px 5px 0px rgba(8, 115, 125, 0.75);
+    }
+.equal{
+    width: 150px;
+}
